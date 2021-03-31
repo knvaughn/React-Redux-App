@@ -30,13 +30,13 @@
   color: #0e86b0;
 }
 
-@media screen and (min-width: 1025px) {
+@media screen and (min-width: 1201px) {
   .left-pane {
     height: 100vh;
   }
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1200px) {
   .App {
     flex-wrap: wrap;
   }
