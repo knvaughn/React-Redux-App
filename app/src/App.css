@@ -1,0 +1,46 @@
+.App {
+  display: flex;
+  min-height: 100vh;
+}
+
+.left-pane {
+  background: #231c69;
+  flex: 1 1 50%;
+  padding: 50px;
+  overflow: auto;
+}
+
+.right-pane {
+  flex: 1 1 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.right-pane img {
+  width: 80%;
+  max-width: 500px;
+}
+
+.error-message {
+  padding: 20px;
+  border-radius: 10px;
+  background: #b8e9ea;
+  font-weight: 600;
+  color: #0e86b0;
+}
+
+@media screen and (min-width: 1201px) {
+  .left-pane {
+    height: 100vh;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .App {
+    flex-wrap: wrap;
+  }
+  .left-pane, .right-pane {
+    flex: 1 1 100%;
+  }
+}
