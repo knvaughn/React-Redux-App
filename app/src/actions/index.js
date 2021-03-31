@@ -15,8 +15,9 @@ export const getDefinition = (word) => (dispatch) => {
             type: FETCHING_DEFINITION_SUCCESS,
             payload: result
         })
+        dispatch({ type: FETCHING_DEFINITION_FAILURE, payload: '' })
     }).catch(err => {
         console.error('unable to get definition: ', err.message)
-        dispatch({ type: FETCHING_DEFINITION_FAILURE, payload: err.message })
+        dispatch({ type: FETCHING_DEFINITION_FAILURE, payload: 'No such word exists!' })
     });
 }

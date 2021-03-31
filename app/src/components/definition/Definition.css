@@ -1,0 +1,14 @@
+.Definition {
+    background: #fff;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+h2 {
+    color: #1b1464;
+    font-weight: 600;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
