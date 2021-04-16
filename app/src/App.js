@@ -19,7 +19,7 @@ function App(props) {
         }
       </div>
       <div className="right-pane">
-        <img src="owlbot.png" />
+        <img src="owlbot.png" alt="owl"  />
       </div>
     </div>
   );
